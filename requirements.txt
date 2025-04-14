@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+imbalanced-learn
+fastapi
+uvicorn
+joblib
+
+
+Dataset not included due to size limits.
+Please download from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+Place it in the root directory as creditcard.csv
