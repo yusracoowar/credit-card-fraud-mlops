@@ -8,4 +8,13 @@ Install dependencies using:
 ```bash
 pip install -r requirements.txt
 
+# Train the model
+python train_model.py
+
+# (Optional) Visualise feature importance
+python plot_importance.py
+
+# Start the API
+uvicorn predict_api:app --reload
+
 
