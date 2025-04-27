@@ -22,7 +22,7 @@ Save the file in the root directory as:
 # Train the model
 python train_model.py
 
-# (Optional) Visualise feature importance
+# Visualise feature importance
 python plot_importance.py
 
 # Start the API
@@ -30,7 +30,7 @@ uvicorn predict_api:app --reload
 
 # Use the API
 
-Go to http://127.0.0.1:8000/docs to access the Swagger UI.
+Go to http://127.0.0.1:8000/docs to access the Swagger UI
 
 Enter transaction data manually and get predictions
 
